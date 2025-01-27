@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Quiz Game - Select Difficulty";
+}
+
+<div class="game-ui text-center">
+    <h1>Select Difficulty Level</h1>
+    <p>Category: <strong>@ViewBag.Category</strong></p>
+    <p>Choose a difficulty level to start the quiz:</p>
+    <div>
+        <button onclick="location.href='@Url.Action("QuizQuestion", "Quiz", new { difficulty = "easy" })'">Easy</button>
+        <button onclick="location.href='@Url.Action("QuizQuestion", "Quiz", new { difficulty = "medium" })'">Medium</button>
+        <button onclick="location.href='@Url.Action("QuizQuestion", "Quiz", new { difficulty = "hard" })'">Hard</button>
+    </div>
+</div>

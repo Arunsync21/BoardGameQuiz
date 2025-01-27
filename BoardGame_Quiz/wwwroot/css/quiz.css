@@ -1,0 +1,107 @@
+﻿body.game-ui {
+    font-family: 'Arial', sans-serif;
+    background-color: #30475E;
+    color: white;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quiz-container {
+    width: 80%;
+    max-width: 800px;
+    background-color: #3D5A80;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+}
+
+.quiz-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.quiz-header .progress {
+    background: #F05454;
+    padding: 20px 20px;
+    border-radius: 12px;
+    color: white;
+    font-size: 1.2em;
+}
+
+.quiz-header .timer {
+    font-size: 1.2em;
+}
+
+.quiz-header .settings {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.quiz-content h1 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.option {
+    background: #189AB4;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: all 0.2s ease-in-out;
+}
+
+.option.correct {
+    background-color: #4caf50;
+    color: white;
+}
+
+.option.wrong {
+    background-color: #f44336;
+    color: white;
+}
+
+.option:hover {
+    background: #75E6DA;
+    transform: scale(1.05);
+}
+
+.quiz-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.player-btn {
+    background: #FFD700;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+}
+
+.player-btn:hover {
+    background: #FFDD44;
+}

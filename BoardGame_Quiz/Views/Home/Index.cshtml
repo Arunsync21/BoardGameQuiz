@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "Quiz Game - Guidelines";
+}
+
+<div class="container game-ui text-center mt-5">
+    <h1 class="text-primary">Welcome to the Quiz Game</h1>
+    <p class="mt-3">Please follow these guidelines to play the game:</p>
+    <ul class="list-unstyled">
+        <li>1. Submit your details.</li>
+        <li>2. Select your category.</li>
+        <li>3. Pick your preferred difficulty level.</li>
+        <li>4. Read all the questions carefully before answering.</li>
+        <li>5. Select the correct option for each question.</li>
+        <li>6. Submit your answers within the given time limit.</li>
+        <li>7. You can only attempt the quiz once per session.</li>
+    </ul>
+    <button class="btn btn-primary mt-4" onclick="location.href='@Url.Action("UserDetails", "User")'">Click to Start</button>
+</div>

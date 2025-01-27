@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Your Certificate</h1>
+    <form asp-controller="Certificate" asp-action="GenerateCertificate" method="get">
+        <label for="playerName">Player's Name:</label>
+        <input type="text" id="playerName" name="playerName" required />
+        <br />
+        <label for="achievement">Achievement:</label>
+        <input type="text" id="achievement" name="achievement" required />
+        <br />
+        <label for="level">Level:</label>
+        <input type="text" id="level" name="level" required />
+        <br />
+        <button type="submit">Generate Certificate</button>
+    </form>
+</div>
