@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace BoardGame_Quiz.Models
+namespace BoardGameQuiz.Models
 {
     public class User
     {

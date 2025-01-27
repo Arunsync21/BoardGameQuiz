@@ -6,7 +6,7 @@ using System.IO;
 using System.Net;
 using System.Net.Mail;
 
-namespace BoardGame_Quiz.Controllers
+namespace BoardGameQuiz.Controllers
 {
     public class CertificateController : Controller
     {

@@ -1,7 +1,7 @@
-﻿using BoardGame_Quiz.Models;
+﻿using BoardGameQuiz.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BoardGame_Quiz.Controllers
+namespace BoardGameQuiz.Controllers
 {
     //[Route("api/[controller]")]
     //[ApiController]

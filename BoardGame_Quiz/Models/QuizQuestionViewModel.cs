@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace BoardGame_Quiz.Models
+namespace BoardGameQuiz.Models
 {
     public class QuizQuestionViewModel
     {

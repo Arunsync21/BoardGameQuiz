@@ -1,4 +1,4 @@
-namespace BoardGame_Quiz.Models
+namespace BoardGameQuiz.Models
 {
     public class ErrorViewModel
     {

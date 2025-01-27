@@ -1,9 +1,9 @@
-using BoardGame_Quiz.Models;
+using BoardGameQuiz.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System.Diagnostics;
 
-namespace BoardGame_Quiz.Controllers
+namespace BoardGameQuiz.Controllers
 {
     public class HomeController : Controller
     {

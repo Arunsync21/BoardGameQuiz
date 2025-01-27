@@ -1,8 +1,8 @@
-﻿using BoardGame_Quiz.Models;
+﻿using BoardGameQuiz.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
-namespace BoardGame_Quiz.Controllers
+namespace BoardGameQuiz.Controllers
 {
     public class QuizController : Controller
     {
